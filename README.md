@@ -1,16 +1,36 @@
-# React + Vite
+# 📚 Online Library System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully functional online library system built with React, Redux, and React Router. Users can browse books by category, search for books, view detailed information, and add new books to the library.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Home Page** - Welcome message, book categories, and popular books display
+- **Browse Books Page** - Filter books by category, search by title/author
+- **Book Details Page** - View complete information about a selected book
+- **Add Book Page** - Form to add new books with validation
+- **404 Page** - Custom not found page for invalid routes
+- **Redux State Management** - Centralized book data management
+- **Responsive Design** - Works on all screen sizes
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React 18** - Frontend library
+- **Redux Toolkit** - State management
+- **React Router DOM v6** - Routing and navigation
+- **Vite** - Build tool and development server
+- **CSS3** - Styling (inline styles)
 
-## Expanding the ESLint configuration
+## 📋 Prerequisites
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Before you begin, ensure you have the following installed:
+- **Node.js** (version 14 or higher)
+- **npm** (version 6 or higher)
+
+## 🚀 Installation and Setup
+
+Follow these steps to run the project locally:
+
+### 1. Clone the repository
+```bash
+git clone <your-repository-url>
+cd library-app
